@@ -1,0 +1,74 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.bg-container{
+    background-image: url(../img/mainpic.jpg);
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    left:0;
+    margin:0;
+    overflow: hidden;
+    background-size: cover;
+    height:100vh;
+    flex-direction: column;
+}
+.logotext{
+    padding-top: 135px;
+    padding-bottom: 25px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    color:#fff;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+button{
+    font-size: x-large;
+    color: black;
+    padding: 10px 48px;
+    margin: 0px 8px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border: 0px;
+    border-radius: 10px;
+    width:200px;
+    height: 55px;
+    margin-bottom: 40px;
+}
+button:hover{
+    color:skyblue;
+    background-color: #fff;
+}
+
+.nav-container{
+    display:flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.contact-container a{
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #fff;
+    width:50px;
+    height: 50px;
+    margin: 0 25px;
+}
+.contact-container img{
+    width:50px;
+    height: 50px;
+}
+
+
